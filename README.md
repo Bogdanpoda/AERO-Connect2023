@@ -1,6 +1,6 @@
 # AERO CONNECT Project
 
-This project is a joint effort by a team of students from XYZ University to design and build a rescue and survey drone. The drone is intended to be used in search and rescue missions, as well as for surveying remote or difficult-to-reach areas. The drone is equipped with a range of sensors and capabilities that allow it to perform its intended tasks efficiently and effectively.
+This project is a joint effort by a team of students from Concordia University to design and build a rescue and survey drone. The drone is intended to be used in search and rescue missions, as well as for surveying remote or difficult-to-reach areas. The drone is equipped with a range of sensors and capabilities that allow it to perform its intended tasks efficiently and effectively.
 
 ## Installation
 
