@@ -7,19 +7,21 @@ from torchvision.io import read_image
 class ConfigDataset(Dataset):
     classes = ("people", "noPerson")
 
-    def __init__(self, img_dir="DataRaw/test", transform=None, target_transform=None, singleImageInstance=None):
+    def __init__(self, img_dir="DataRaw\\train", transform=None, target_transform=None, singleImageInstance=None):
         self.img_dir = img_dir
         self.transform = transform
         self.target_transform = target_transform
         self.singleImageInstance = singleImageInstance
-        self.img_labels = self._load_images(img_dir)
+        self.img_labels = self.load_images(img_dir)
 
-    def load_images(self,img_dir):
-        records=[]
+    def load_images(self, img_dir):
+        records = []
         if self.singleImageInstance == None:
             for class_idx, label in enumerate(self.classes):
-                for image_path in glob.iglob(f'{img_dir}/{label}/*.bmp'):
+                for image_path in glob.iglob(f'{img_dir}\\{label}\\*.jpg'):
+                    print(image_path)
                     records.append((image_path, class_idx))
+
 
         else:
             records.append((self.singleImageInstance[0], self.classes.index(self.singleImageInstance[1])))
@@ -46,8 +48,11 @@ class ConfigDataset(Dataset):
         return len(self.img_labels)
 
     def __getitem__(self, idx):
+        print("immage index: ", idx)
+        print("immage path: ", self.img_labels.iloc[idx, 0])
         image = read_image(self.img_labels.iloc[idx, 0])
         label = self.img_labels.iloc[idx, 1]
+
 
         if self.transform:
             image = self.transform(image)
@@ -56,10 +61,3 @@ class ConfigDataset(Dataset):
             label = self.target_transform(label)
 
         return image, label
-
-
-
-
-
-
-

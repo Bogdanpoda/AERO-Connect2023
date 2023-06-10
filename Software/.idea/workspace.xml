@@ -5,10 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54439700-9158-48db-b48d-2d39e1f1e4c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ConfigDataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigDataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00002.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00003.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00005 - Copy (2).bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00006.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00007.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00009 - Copy (2) - Copy - Copy.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00009 - Copy - Copy (2) - Copy - Copy.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00009 - Copy - Copy - Copy.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00009.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00011.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00012.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00013 - Copy (2).bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00013 - Copy.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00013.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00014 - Copy.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00014.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00015 - Copy.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00015.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00016.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00017.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00018.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00019.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00020.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00021.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00022.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00023.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00024.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00025.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00026.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00027.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00028.bmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
