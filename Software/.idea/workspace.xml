@@ -5,64 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54439700-9158-48db-b48d-2d39e1f1e4c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dataGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigDataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/test/noPerson/LWIR52.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/test/noPerson/LWIR56.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/test/noPerson/LWIR61.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/test/noPerson/LWIR65.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/test/noPerson/LWIR67.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/test/noPerson/LWIR69.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00026.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00027.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/test/people/img_00028.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (10).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (10).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (11).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (11).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (12).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (12).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (13).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (14).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (14).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (15).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (15).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (16).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (16).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (17).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (17).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (18).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (18).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (2).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (3).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (3).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (4).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (4).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (5).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (5).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (6).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (7).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (8).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/noPerson/LWIR08 (9).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00005 - Copy (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00009 - Copy (2) - Copy - Copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00009 - Copy - Copy (2) - Copy - Copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00009 - Copy - Copy - Copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00009.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00011.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00014 - Copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00015 - Copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00016.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00021.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00022.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00023.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00026.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00027.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRaw/train/people/img_00028.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Bogdan/Repos/Portfolio"
+    "last_opened_file_path": "C:/Users/Bogdan/Repos/AERO-Connect2023/AERO-Connect2023/Software"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

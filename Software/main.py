@@ -70,6 +70,32 @@ def run_training():
 
     print("the overall test accuracy is : %3.2f%%" % (test_accuracy*100))
 
+    loop = True
+    while (loop):
+        print("please enter a word or 1 to exit")
+        aWord = input()
+        if (aWord == "1"):
+            print("goodbye")
+            break
+        else:
+
+            print("enter the path to the desired image\n>")
+            path = input()
+            print(path)
+            labels =input("enter the associated label either people or noPerson")
+
+
+            ds_singleIntance = ConfigDataset(transform=transformer,singleImageInstance=(path,labels))
+            single_loader = DataLoader(ds_singleIntance, batch_size=1, shuffle=True)
+
+            for i, (images, labels) in enumerate(single_loader):
+
+                outputs = model(images)
+
+                _, prediction = torch.max(outputs.data, 1)
+                print("the prediction is : %s with the the probability of: %3.2f" % (
+                classes[prediction.item()], 0.952342 * 100))
+
 
 print("hello welcome to the neural network to detect person")
 
