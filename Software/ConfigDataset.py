@@ -7,7 +7,7 @@ from torchvision.io import read_image
 class ConfigDataset(Dataset):
     classes = ("people", "noPerson")
 
-    def __init__(self, img_dir="DataRaw/train", transform=None, target_transform=None, singleImageInstance=None):
+    def __init__(self, img_dir="DataRaw/test", transform=None, target_transform=None, singleImageInstance=None):
         self.img_dir = img_dir
         self.transform = transform
         self.target_transform = target_transform
@@ -19,8 +19,6 @@ class ConfigDataset(Dataset):
         if self.singleImageInstance == None:
             for class_idx, label in enumerate(self.classes):
                 for image_path in glob.iglob(f'{img_dir}\\{label}\\*.jpg'):
-                    records.append((image_path, class_idx))
-                for image_path in glob.iglob(f'{img_dir}\\{label}\\*.JPG'):
                     records.append((image_path, class_idx))
 
         else:

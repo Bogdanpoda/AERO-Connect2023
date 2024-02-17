@@ -25,9 +25,10 @@ transformer = transforms.Compose([
 
 
 def run_training():
-    ds = ConfigDataset(img_dir="DataRaw\\train", transform=transformer)
+    ds = ConfigDataset(img_dir="DataRaw\\test", transform=transformer)
     train_size = int(len(ds))
-    ds_test = ConfigDataset(img_dir="DataRaw\\test", transform=transformer)
+    print(train_size)
+    ds_test = ConfigDataset(img_dir="DataRaw\\train", transform=transformer)
     test_size = int(len(ds_test))
 
     fileWriter = open("Results/Report.txt", "w+")
@@ -38,33 +39,54 @@ def run_training():
     test_loader = DataLoader(ds_test, batch_size=1, shuffle=True)
 
     optimizer = Adam(model.parameters(), lr=0.001, weight_decay=0.0001)
-    loss_function = nn.CrossEntropyLoss()
+    loss_function = nn.BCELoss()
 
     # Evaluation and training on training dataset
     model.train()
     train_accuracy = 0.0
+    train_index =0
     train_loss = 0.0
-    for i, (images, labels) in enumerate(train_loader):
-        optimizer.zero_grad()
+    num_epoch =10
+    for epoch in range(num_epoch):
+        train_index =0
+        train_accuracy = 0.0
+        for i, (images, labels) in enumerate(train_loader):
+            optimizer.zero_grad()
+            outputs = model(images)
+            floatLabel=labels.float()
+            loss = loss_function(outputs[0],  floatLabel)
+            loss.backward()
+            optimizer.step()
+            prediction = 0
+            if(outputs.item()>0.5):
+                prediction =1
 
-        outputs = model(images)
-        loss = loss_function(outputs, labels)
-        loss.backward()
-        optimizer.step()
-        _, prediction = torch.max(outputs.data, 1)
-        #print("the prediction is: ", prediction.item())
-        #print("the true prediction is: ",outputs.data ,labels.item())
-        #train_accuracy += int(torch.sum(prediction == labels.data))
+            #_, prediction = torch.max(outputs.data, 1)
+            #print(prediction, labels.data)
+
+            #print("the prediction is: ", prediction.item())
+            #print("the true prediction is: ",outputs.data ,labels.item())
+            if( prediction == labels.item()):
+                train_accuracy += 1
+            train_index+=1
+        print(train_index)
+        print(f"epoch {epoch} the prediction is: %f" % (train_accuracy/train_index))
+
+    torch.save(model.state_dict(), 'model_1.pth')
+
 
     model.eval()
     test_accuracy = 0
     classes = ("people", "noPerson")
     for i, (images, labels) in enumerate(test_loader):
         outputs = model(images)
-        _, prediction = torch.max(outputs.data, 1)
-        print("the prediction is: ", prediction.item())
-        print("the prediction is : %s with the the probability of: %3.2f" % (classes[prediction.item()], 0.952342 * 100))
-        test_accuracy += int(torch.sum(prediction.item() == labels.data))
+        prediction = 0
+        if (outputs.item() > 0.5):
+            prediction = 1
+        print("the expected is: ", labels.item())
+        print("the prediction is : %s with the the probability of: %3.2f %%" % (classes[prediction], 100-(outputs.item()*100)))
+        if (prediction == labels.item()):
+            test_accuracy += 1
 
     test_accuracy = test_accuracy / test_size
 
